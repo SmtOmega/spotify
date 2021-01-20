@@ -1,11 +1,11 @@
 import React from "react";
-import { Fotter } from "../../components/Footer/Fotter";
+import { Footer } from "../../components/Footer/Footer";
 import "./App.css";
 
 export const App = () => {
   return (
     <div className='container'>
-      <Fotter />
+      <Footer />
     </div>
   );
 };
