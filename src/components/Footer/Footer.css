@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;
+  padding: 1.6rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-items: center;
+}
