@@ -1,7 +1,11 @@
 import React from "react";
+import sample from "../../assets/bg.mp4";
+import "./BackgroundVideo.scss";
 
-const BackgroundVideo = () => {
-  return <div></div>;
+export const BackgroundVideo = () => {
+  return (
+    <video className='bg__video' autoPlay loop muted>
+      <source src={sample} type='video/mp4' />
+    </video>
+  );
 };
-
-export default BackgroundVideo;
