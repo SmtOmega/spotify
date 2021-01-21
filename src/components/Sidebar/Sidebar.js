@@ -4,7 +4,7 @@ import { VscLibrary } from "react-icons/vsc";
 import logo from "../asset/logo.svg";
 import "./Sidebar.scss";
 
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <aside className='aside-container'>
       <div className='logo'>
@@ -36,5 +36,3 @@ const Sidebar = () => {
     </aside>
   );
 };
-
-export default Sidebar;
