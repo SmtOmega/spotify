@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHome, FaPlus, FaSearch } from "react-icons/fa";
 import { VscLibrary } from "react-icons/vsc";
-import logo from "../asset/logo.svg";
+import logo from "../../assets/logo.svg";
 import "./Sidebar.scss";
 
 export const Sidebar = () => {
