@@ -1,0 +1,50 @@
+.aside-container {
+  height: 100vh;
+  background: #040404;
+  width: 250px;
+  color: #b3b3b3;
+  padding: 10px;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+
+}
+
+.aside-container ul {
+  margin: 0;
+  padding: 0;
+}
+.aside-container ul li {
+  list-style-type: none;
+  padding: 12px 18px;
+  color: #b3b3b3;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+.aside-container ul li:hover {
+  color: #fff;
+}
+.active {
+  background-color: #131313;
+}
+.icon {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.playlist {
+  margin-top: 30px;
+}
+.aside-btn-container {
+  padding: 5px 18px;
+}
+.aside-btn {
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
